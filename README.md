@@ -26,6 +26,26 @@ But an original Commodore CP/M 2.2 can be booted. And it works so far, even if n
 
 ## Status
 
+### Status as of 03 March 2021
+
+In the meantime the whole thing runs quite stable, at least as long as it is worked with. I have now provided an additional 50MHz oscillator to make the cycling more accurate.
+
+The boot process seems to be stable, at least I couldn't detect any problems there so far.
+
+As long as you work with the CP/M, there seems to be no more problems.
+
+Only if the CP/M has nothing to do, then it crashes abruptly sometimes. Unfortunately not predictable, concerning the time. This makes the search a bit more difficult. But I am in good hope to find this bug as well.
+
+First attempts with the 8MHZ mode look quite successful, but a real speed increase in normal operation is not felt. The main problem is that the communication with the C64 (i.e. RAM, floppy, etc) is still subject to the C64 conventions. The Z80 therefore has to wait most of the time.
+
+Currently the whole thing runs at 4MHz, just like the original module. If you use SpeedDOS, JiffyDOS or a comparable floppy speeder, the loading times are quite bearable.
+
+------
+
+### Old entries
+
+### Status as of 22 February 2021
+
 For now, I have developed and ordered a circuit board. With it I hope to get the signal problems under control. After that I can continue with the CPLD code development.
 
 ![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_PCB_Prototype.jpg)

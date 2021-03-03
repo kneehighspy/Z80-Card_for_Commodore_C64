@@ -131,6 +131,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=Z80 Card for Diagnotics.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=POCOEKRT
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Z80 Card for Commodore C64\BOM\2021-02-22\Bill of Materials-Z80 Card for Commodore C64.xlsx
 DItemRevisionGUID=
@@ -140,84 +157,152 @@ DocumentPath=Project Outputs for Z80 Card for Commodore C64\Design Rule Check - 
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-02-22\Z80 Card for Commodore C64.DRR
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Design Rule Check - Z80 Card for Diagnotics.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.EXTREP
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-02-22\Z80 Card for Commodore C64.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBL
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBO
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBP
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBS
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GKO
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GM1
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTL
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTO
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTP
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTS
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-02-22\Z80 Card for Commodore C64.LDP
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.REP
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-02-22\Z80 Card for Commodore C64.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.RUL
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.REP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-02-22\Z80 Card for Commodore C64.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-02-22\Z80 Card for Commodore C64.TXT
 DItemRevisionGUID=
 
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-03-01\Z80 Card for Diagnotics.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-03-01\Z80 Card for Diagnotics.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.REP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\Gerber\2021-03-01\Z80 Card for Diagnotics.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for Z80 Card for Commodore C64\NC Drill\2021-03-01\Z80 Card for Diagnotics.TXT
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Version
-Value=0.1
+Name=Author
+Value=PCB-Tech
 
 [Parameter2]
-Name=Title
-Value=Projektname
-
-[Parameter3]
 Name=Revision
 Value=-
 
+[Parameter3]
+Name=Title
+Value=Projektname
+
 [Parameter4]
-Name=Author
-Value=PCB-Tech
+Name=Version
+Value=0.3
 
 [Configuration1]
 Name=Sources
