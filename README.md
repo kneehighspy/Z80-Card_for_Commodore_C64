@@ -26,6 +26,26 @@ But an original Commodore CP/M 2.2 can be booted. And it works so far, even if n
 
 ## Status
 
+### Status as of 05 March 2021
+
+Meanwhile the 4MHz mode runs quite stable. Now and then it hangs when booting. However, the boards have not arrived yet, so I am still testing on my breadboard model.
+
+The 8MHz mode I would see times so 90%. There are still some minor problems here and there. But basically it works.
+
+Today I compiled an old Pascal program for the Mandelbrot set and ran it on 4MHZ and 8MHz. 
+
+While you don't feel any difference when loading programs (booting takes 9-10 seconds with JiffyDOS at 4, as well as 8MHz) there are differences in mathematical calculations.
+
+With the 4MHz version, a run takes just under 7 minutes and 16 seconds (measured with the smartphone). In the 8MHz mode, it then only took 3 minutes and 58 seconds. 
+
+I'll see if I can install both modes, possibly with DIP switch switchable or so.
+
+
+
+------
+
+### Old entries
+
 ### Status as of 03 March 2021
 
 In the meantime the whole thing runs quite stable, at least as long as it is worked with. I have now provided an additional 50MHz oscillator to make the cycling more accurate.
@@ -40,9 +60,7 @@ First attempts with the 8MHZ mode look quite successful, but a real speed increa
 
 Currently the whole thing runs at 4MHz, just like the original module. If you use SpeedDOS, JiffyDOS or a comparable floppy speeder, the loading times are quite bearable.
 
-------
 
-### Old entries
 
 ### Status as of 22 February 2021
 
