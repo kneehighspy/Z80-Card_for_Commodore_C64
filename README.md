@@ -26,6 +26,34 @@ But an original Commodore CP/M 2.2 can be booted. And it works so far, even if n
 
 ## Status
 
+### Status as of 06 March 2021
+
+Today I built the whole thing on a real board.
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/z80-card-first_pcb.jpg)
+
+
+
+Don't be surprised that there are still unpopulated components. They are no longer needed. Everything is now in the CPLD.
+
+Yesterday I was still thinking whether the 8MHz mode makes sense at all. Today I ask myself, why I still tinker at the 4MHz mode or if necessary install both.
+
+Is actually nonsense. The 8MHz mode doesn't speed up the load times and access to the RAM in the C64 (because of the bottleneck expansion port and RAM), but as far as pure CPU work is concerned, the whole thing is much faster.
+
+And whether 4MHz or 8MHz, the CP/M version doesn't change. Also the user must consider there nothing or configure.
+
+Therefore I will stop the work on the 4MHz version and concentrate on the 8MHz version.
+
+The current status looks like that, that everything works so far. Also actually quite stable. Very rarely the boot does not work directly at the first time. 
+
+Currently I still have the problem that he sometimes messes with the waitstates. I still have to work on the routine. But the rest looks so far already quite good.
+
+
+
+------
+
+### Old entries
+
 ### Status as of 05 March 2021
 
 Meanwhile the 4MHz mode runs quite stable. Now and then it hangs when booting. However, the boards have not arrived yet, so I am still testing on my breadboard model.
@@ -41,10 +69,6 @@ With the 4MHz version, a run takes just under 7 minutes and 16 seconds (measured
 I'll see if I can install both modes, possibly with DIP switch switchable or so.
 
 
-
-------
-
-### Old entries
 
 ### Status as of 03 March 2021
 
