@@ -4,24 +4,6 @@ I'm currently working on a Z80 card for the Commodore C64 to be able to use CP/M
 
 
 
-## Introduction
-
-I have already created a first prototype on a breadboard with a CPLD. I put a small DevBoard piggyback on the breadboard. I soldered the whole thing with enamelled copper wire.
-
-![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_1.jpg)
-
-
-
-![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_2.jpg)
-
-
-
-The whole thing is unfortunately not perfect and of course I have some signal problems because of the "flying wiring". But at least I could run the board with 2MHz. It doesn't run perfectly yet and I still have to work on some timings.
-
-But an original Commodore CP/M 2.2 can be booted. And it works so far, even if not quite stable yet. But it even runs in newer Commodore models, which is not possible with the old original CP/M cartridge from Commodore.
-
-![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_3.jpg)
-
 ## Status
 
 ### Status as of 12 March 2021
@@ -115,6 +97,24 @@ Also I have by exchange of different TTL components against other types (S or LS
 But which VIC was in use, apparently played no role. It seems to be rather minimal timing differences that play a role, but they are extremely tiny.
 
 
+
+### First Entry
+
+I have already created a first prototype on a breadboard with a CPLD. I put a small DevBoard piggyback on the breadboard. I soldered the whole thing with enamelled copper wire.
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_1.jpg)
+
+
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_2.jpg)
+
+
+
+The whole thing is unfortunately not perfect and of course I have some signal problems because of the "flying wiring". But at least I could run the board with 2MHz. It doesn't run perfectly yet and I still have to work on some timings.
+
+But an original Commodore CP/M 2.2 can be booted. And it works so far, even if not quite stable yet. But it even runs in newer Commodore models, which is not possible with the old original CP/M cartridge from Commodore.
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_3.jpg)
 
 ------
 
