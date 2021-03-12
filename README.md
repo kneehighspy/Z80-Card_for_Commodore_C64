@@ -22,9 +22,25 @@ But an original Commodore CP/M 2.2 can be booted. And it works so far, even if n
 
 ![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_prototype_3.jpg)
 
-
-
 ## Status
+
+### Status as of 12 March 2021
+
+Since I've always wanted to experiment with more unusual PCB outlines, I tried my hand at something like this:
+
+
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_design_pcb.jpg)
+
+
+
+Is there any interest in something like this? So that on circuit boards so small gags are attached? 
+
+
+
+------
+
+### Old entries
 
 ### Status as of 06 March 2021
 
@@ -49,10 +65,6 @@ The current status looks like that, that everything works so far. Also actually 
 Currently I still have the problem that he sometimes messes with the waitstates. I still have to work on the routine. But the rest looks so far already quite good.
 
 
-
-------
-
-### Old entries
 
 ### Status as of 05 March 2021
 
