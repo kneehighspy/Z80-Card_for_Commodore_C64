@@ -6,6 +6,38 @@ I'm currently working on a Z80 card for the Commodore C64 to be able to use CP/M
 
 ## Status
 
+### Status as of 15 March 2021
+
+Today I made a small breakthrough. I now have the firmware in a fairly stable state. First tests look very good so far. 
+
+
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_first_alpha_release.jpg)
+
+
+
+I have tested so far in an old 407 board, as well as a C64G with 469 board. Also with original DOS, SpeedDOS and JiffyDOS. With the original DOS it is not so much fun, because the loading is very slow, but with a floppy speeder it works very well.
+
+The Z80 runs with the DOT CLK frequency of the C64, which is about 8MHz. So far I have only tested on PAL machines (I don't have an NTSC version). Theoretically this shouldn't make any difference, at least I hope so.
+
+For testing I have mainly used a small Pascal program which calculates the Mandelbrot set. I compiled this with Turbo Pascal 3.01 under CP/M:
+
+By the way, you can see a clear difference between the original Commodore module and my version. 
+
+
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_Mandelbrot.jpg)
+
+
+
+I think sooner or later we will do a first beta test...
+
+
+
+------
+
+### Old entries
+
 ### Status as of 12 March 2021
 
 Since I've always wanted to experiment with more unusual PCB outlines, I tried my hand at something like this:
@@ -19,10 +51,6 @@ Since I've always wanted to experiment with more unusual PCB outlines, I tried m
 Is there any interest in something like this? So that on circuit boards so small gags are attached? 
 
 
-
-------
-
-### Old entries
 
 ### Status as of 06 March 2021
 
