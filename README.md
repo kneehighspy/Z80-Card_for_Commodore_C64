@@ -250,6 +250,14 @@ But an original Commodore CP/M 2.2 can be booted. And it works so far, even if n
 
 
 
+## PCB
+
+The PCB can either be ordered directly from [PCBWay](https://www.pcbway.com/project/shareproject/8MHz_Z80_Card_for_Commodore_C64.html), or you can create it yourself from the Gerber files available here.
+
+[![PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/8MHz_Z80_Card_for_Commodore_C64.html)
+
+
+
 If you liked my project, I would be very happy about a small coffee donation.
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R62T6RN)
