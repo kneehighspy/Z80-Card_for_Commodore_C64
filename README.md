@@ -85,7 +85,7 @@ Many parts are not needed for this project. So far I had tested the card only wi
 | 5    | 1        | C1                         | KEMET        | C320C104K5R5TA7305       | Ceramic Disc  Capacitors 100nF -20%~+80% 50V Through Hole,P=2.54mm RoHS |
 | 6    | 1        | U5                         | Exar         | SPX5205M5-L-3-3/TR       | LDO Regulator  Pos 3.3V 0.15A 5-Pin SOT-23 T/R               |
 | 7    | 1        | CP1                        | Nichicon     | UMF1C470MDD1TP           | Aluminum  Electrolytic Capacitors - Leaded 47uF 105c         |
-| 8    | 1        | U1                         | Xilinx       | XC95144XL-7TQ100C        | IC CPLD 144MC  7.5NS 100TQFP                                 |
+| 8    | 1        | U1                         | Xilinx       | XC95144XL-10TQ100C       | IC CPLD 144MC  10NS 100TQFP                                  |
 | 9    | 1        | U2                         | Ixys  Zilog  | Z84000HPS                | IC  CPU Z80 8MHZ 40DIP                                       |
 
 
