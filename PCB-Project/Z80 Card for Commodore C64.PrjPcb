@@ -132,7 +132,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=Z80 Card for Diagnotics.PcbDoc
+DocumentPath=Z80 Card for Commodore C64_1.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -146,7 +146,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=POCOEKRT
+DocumentUniqueId=NVAIVYFF
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Z80 Card for Commodore C64\BOM\2021-02-22\Bill of Materials-Z80 Card for Commodore C64.xlsx

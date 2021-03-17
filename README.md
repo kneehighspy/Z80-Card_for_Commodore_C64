@@ -1,10 +1,116 @@
 # Z80-Card for Commodore C64
 
-I'm currently working on a Z80 card for the Commodore C64 to be able to use CP/M 2.2. The whole thing is based on a CPLD and a Z80 processor.
+I'm currently working on a Z80 card for the Commodore C64 to be able to use CP/M 2.2. The whole thing is based on a CPLD and a 8MHz Z80 processor.
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_design_pcb.jpg)
 
 
 
-## Status
+Currently, the project is in beta phase. I would personally classify the stability as quite high, at least with the computers I tested.
+
+## Description
+
+Based on the old Commodore CP/M cartridge, I hooked the Z80 processor directly to the 8MHz dot clock of the C64. 
+
+However, at least if you don't switch off the VIC, the rest of the C64 still works with only 1MHZ, so the access to RAM, floppy drive, etc. is still limited in speed.
+
+A big other problem was the compatibility of the old original module. I have the following boards in which I could test my Z80 cartridge:
+
+- ASSY-NO.250407 / ARTWORK-NO.251137 / REV.B
+- ASSY-NO.250407 / ARTWORK-NO.251137 / REV.C
+- ASSY-NO.250469 / PCB-NO.252311 / REV.4
+- ASSY-NO.250469 / PCB-NO.252311 / REV.B
+- SX-64 (I would have to unscrew it to check the revision)
+
+(All PAL models)
+
+I have changed the dependencies of the signals in some places, so that the VIC and the Z80 card should not get in each other's way. I also didn't use a counter for the waitstates, but determine in which cycle the Z80 is currently and then set the corresponding waitstates depending on the VIC. 
+
+This has increased the stability enormously. Also now the version/revision of the VIC seems to play no role. At least I couldn't find any difference in the stability of my different versions.
+
+
+
+## Assembly
+
+
+
+There is actually not much to consider when assembling. First I would solder the XIlinx CPLD. Then the voltage regulator, followed by the SMD capacitors.
+
+The rest of the other parts can then be applied from small to large. So the capacitors first, then the ferrite beads and then the 40 pin IC socket. At the end then the electrolytic capacitor. It is probably more practical to mount it horizontally, because it is comparatively high and could be torn off quickly.
+
+
+
+## Flash firmware
+
+The firmware is available as JED file. This can be flashed with a JTAG programming adapter.
+
+The easiest way is to use the tool "xc3sprog" and a small FT232H adapter board. You can get the latter for a small amount of money.
+
+A very well described tutorial how to do this can be found here: https://github.com/1c3d1v3r/neatPLA/tree/master/programming
+
+The pinout of the JTAG connector of my board is on the backside.
+
+![](https://github.com/DL2DW/Z80-Card_for_Commodore_C64/blob/main/Images/Z80-Card_JTAG.jpg)
+
+
+
+I would not solder a male or female header here. For the short flash process it is sufficient to simply insert the small Dupont connectors of the FT232H board into the solder contacts and hold them slightly tilted.
+
+Once the firmware has been installed, the cartridge is ready for use.
+
+
+
+## CP/M Disk
+
+My Z80 cartridge uses the same CP/M system disk as the original module from Commodore. I have a D64 image of the standard system disk in the repository.
+
+Otherwise, http://biosrhythm.com/?p=1220 is a good place to go for more disk images, which include Wordstar, Turbo Pascal, Zork and some other CP/M programs.
+
+On these images a software emulation for 80 characters is also integrated. This does not replace a real 80 character card as hardware, but it is much more fun than with the standard 40 characters of the C64.
+
+But you can find some other tools and programs on the internet. 
+
+
+
+## Parts list
+
+Many parts are not needed for this project. So far I had tested the card only with the NMOS version of the Z80 (The CMOS version is ordered, but has not been delivered yet). 
+
+| #    | Quantity | Designator                 | Manufacturer | Manufacturer Part Number | Description                                                  |
+| ---- | -------- | -------------------------- | ------------ | ------------------------ | ------------------------------------------------------------ |
+| 1    | 6        | FB1 - FB6                  | Fair-Rite    | 2743005112               | Ferrite Beads  Axial 91Ohm 100MHz T/R                        |
+| 2    | 6        | C2, C3, C10, C13, C14, C15 | KEMET        | C315C100J3G5TA           | CAP  CER 10PF 25V C0G/NP0 RADIAL                             |
+| 3    | 6        | C4, C5, C6, C7, C8, C9     | KEMET        | C0603C104J3RACTU         | KEMET     C0603C104J3RACTU       SMD Multilayer Ceramic  Capacitor, 0603 [1608 Metric], 0.1 F, 25 V,   5%, X7R, C Series |
+| 4    | 2        | C16, C17                   | KEMET        | C0805C106K8RACTU         | KEMET  - C0805C106K8RACTU - CAP, 10µF, 10V, 10%, X7R, 0805   |
+| 5    | 1        | C1                         | KEMET        | C320C104K5R5TA7305       | Ceramic Disc  Capacitors 100nF -20%~+80% 50V Through Hole,P=2.54mm RoHS |
+| 6    | 1        | U5                         | Exar         | SPX5205M5-L-3-3/TR       | LDO Regulator  Pos 3.3V 0.15A 5-Pin SOT-23 T/R               |
+| 7    | 1        | CP1                        | Nichicon     | UMF1C470MDD1TP           | Aluminum  Electrolytic Capacitors - Leaded 47uF 105c         |
+| 8    | 1        | U1                         | Xilinx       | XC95144XL-7TQ100C        | IC CPLD 144MC  7.5NS 100TQFP                                 |
+| 9    | 1        | U2                         | Ixys  Zilog  | Z84000HPS                | IC  CPU Z80 8MHZ 40DIP                                       |
+
+
+
+# Status
+
+### Status as of 16 March 2021
+
+I have decided to start an open beta phase. I have published everything necessary to build the map. Currently the version is 0.3. 
+
+There is a kind of discussion board at GitHub by now. You can find it in the menu bar at the top of this project.
+
+Perhaps this could be used for suggestions and questions, while the Issues section is reserved for bug reports.
+
+For this board I had the fun to work a little bit on the design and to add the lettering CP/M to the board. 
+
+I would be interested if others like this or if I should make a "normal" board without any embellishments. 
+
+I would be particularly interested to know on which hardware you test. So which board, revision, kernal, any conversions, etc.? The more feedback, the better. 
+
+
+
+------
+
+### Old entries
 
 ### Status as of 15 March 2021
 
@@ -33,10 +139,6 @@ By the way, you can see a clear difference between the original Commodore module
 I think sooner or later we will do a first beta test...
 
 
-
-------
-
-### Old entries
 
 ### Status as of 12 March 2021
 
