@@ -92,6 +92,16 @@ Many parts are not needed for this project. So far I had tested the card only wi
 
 # Status
 
+### Status as of 17 March 2021
+
+Beta test phase started.
+
+
+
+------
+
+### Old entries
+
 ### Status as of 16 March 2021
 
 I have decided to start an open beta phase. I have published everything necessary to build the map. Currently the version is 0.3. 
@@ -107,10 +117,6 @@ I would be interested if others like this or if I should make a "normal" board w
 I would be particularly interested to know on which hardware you test. So which board, revision, kernal, any conversions, etc.? The more feedback, the better. 
 
 
-
-------
-
-### Old entries
 
 ### Status as of 15 March 2021
 
