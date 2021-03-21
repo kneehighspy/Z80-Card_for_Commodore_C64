@@ -76,33 +76,39 @@ But you can find some other tools and programs on the internet.
 
 Many parts are not needed for this project.
 
-**As for the Z80 processor, it must be an NMOS version. First tests with the CMOS version did not work. What exactly the differences are, I haven't found out yet. It seems that some commands behave differently in the output.**
+**As of firmware release v0.5 CMOS CPUs are now also supported.** 
 
-| #    | Quantity | Designator                 | Manufacturer | Manufacturer Part Number               | Description                                                  |
-| ---- | -------- | -------------------------- | ------------ | -------------------------------------- | ------------------------------------------------------------ |
-| 1    | 6        | FB1 - FB6                  | Fair-Rite    | 2743005112                             | Ferrite Beads  Axial 91Ohm 100MHz T/R                        |
-| 2    | 6        | C2, C3, C10, C13, C14, C15 | KEMET        | C315C100J3G5TA                         | CAP  CER 10PF 25V C0G/NP0 RADIAL                             |
-| 3    | 6        | C4, C5, C6, C7, C8, C9     | KEMET        | C0603C104J3RACTU                       | KEMET     C0603C104J3RACTU       SMD Multilayer Ceramic  Capacitor, 0603 [1608 Metric], 0.1 F, 25 V,   5%, X7R, C Series |
-| 4    | 2        | C16, C17                   | KEMET        | C0805C106K8RACTU                       | KEMET  - C0805C106K8RACTU - CAP, 10µF, 10V, 10%, X7R, 0805   |
-| 5    | 1        | C1                         | KEMET        | C320C104K5R5TA7305                     | Ceramic Disc  Capacitors 100nF -20%~+80% 50V Through Hole,P=2.54mm RoHS |
-| 6    | 1        | U5                         | Exar         | SPX5205M5-L-3-3/TR                     | LDO Regulator  Pos 3.3V 0.15A 5-Pin SOT-23 T/R               |
-| 7    | 1        | CP1                        | Nichicon     | UMF1C470MDD1TP                         | Aluminum  Electrolytic Capacitors - Leaded 47uF 105c         |
-| 8    | 1        | U1                         | Xilinx       | XC95144XL-10TQ100C                     | IC CPLD 144MC  10NS 100TQFP                                  |
-| 9    | 1        | U2                         | Ixys  Zilog  | Z0840008PEC or Z0840008PSC or Z8400HPS | IC  CPU Z80 8MHZ 40DIP NMOS                                  |
+| #    | Quantity | Designator                 | Manufacturer | Manufacturer Part Number                               | Description                                                  |
+| ---- | -------- | -------------------------- | ------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | 6        | FB1 - FB6                  | Fair-Rite    | 2743005112                                             | Ferrite Beads  Axial 91Ohm 100MHz T/R                        |
+| 2    | 6        | C2, C3, C10, C13, C14, C15 | KEMET        | C315C100J3G5TA                                         | CAP  CER 10PF 25V C0G/NP0 RADIAL                             |
+| 3    | 6        | C4, C5, C6, C7, C8, C9     | KEMET        | C0603C104J3RACTU                                       | KEMET     C0603C104J3RACTU       SMD Multilayer Ceramic  Capacitor, 0603 [1608 Metric], 0.1 F, 25 V,   5%, X7R, C Series |
+| 4    | 2        | C16, C17                   | KEMET        | C0805C106K8RACTU                                       | KEMET  - C0805C106K8RACTU - CAP, 10µF, 10V, 10%, X7R, 0805   |
+| 5    | 1        | C1                         | KEMET        | C320C104K5R5TA7305                                     | Ceramic Disc  Capacitors 100nF -20%~+80% 50V Through Hole,P=2.54mm RoHS |
+| 6    | 1        | U5                         | Exar         | SPX5205M5-L-3-3/TR                                     | LDO Regulator  Pos 3.3V 0.15A 5-Pin SOT-23 T/R               |
+| 7    | 1        | CP1                        | Nichicon     | UMF1C470MDD1TP                                         | Aluminum  Electrolytic Capacitors - Leaded 47uF 105c         |
+| 8    | 1        | U1                         | Xilinx       | XC95144XL-10TQ100C                                     | IC CPLD 144MC  10NS 100TQFP                                  |
+| 9    | 1        | U2                         | Zilog        | Z084C0008PEG or Z0840008PEC or Z0840008PSC or Z8400HPS | IC  CPU Z80 8MHZ 40DIP NMOS or CMOS                          |
 
 
 
 # Status
 
-### Status as of 17 March 2021
+### Status as of 21 March 2021
 
-Beta test phase started.
+I have adapted the firmware accordingly, so that now also the CMOS variants of the Z80 can be used. The current release V0.5 supports CMOS and NMOS Z80 CPUs.
 
 
 
 ------
 
 ### Old entries
+
+### Status as of 17 March 2021
+
+Beta test phase started.
+
+
 
 ### Status as of 16 March 2021
 
